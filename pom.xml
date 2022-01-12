@@ -178,7 +178,7 @@
                 </goals>
                 <configuration>
                   <target>
-                    <copy file="../LICENSE.txt" tofile="${project.build.directory}/generated-resources/META-INF/LICENSE" overwrite="false" failonerror="true" />
+                    <copy file="../LICENSE.txt" tofile="${project.build.directory}/generated-resources/META-INF/LICENSE" overwrite="false" failonerror="true"/>
                   </target>
                 </configuration>
               </execution>
@@ -233,7 +233,7 @@
                 </goals>
                 <configuration>
                   <target>
-                    <copy file="../LICENSE.txt" tofile="${project.build.directory}/test-classes/META-INF/LICENSE" overwrite="false" failonerror="true" />
+                    <copy file="../LICENSE.txt" tofile="${project.build.directory}/test-classes/META-INF/LICENSE" overwrite="false" failonerror="true"/>
                   </target>
                 </configuration>
               </execution>
@@ -1146,7 +1146,7 @@
     <version.com.brsanthu.migbase64>2.2</version.com.brsanthu.migbase64>
     <version.com.megginson.sax.xml-writer>0.2</version.com.megginson.sax.xml-writer>
     <version.commons.cli>1.1</version.commons.cli>
-    <version.commons.codec>1.10</version.commons.codec>
+    <version.commons.codec>1.15</version.commons.codec>
     <version.commons.io>1.4</version.commons.io>
     <version.commons.lang>2.4</version.commons.lang>
     <version.dom4j>1.6.1</version.dom4j>
@@ -1185,7 +1185,7 @@
     <surefire.illegal.access>permit</surefire.illegal.access>
 
     <argLine>${surefire.argline}</argLine>
-    <javadoc.xdoclint />
-    <surefire.argline />
+    <javadoc.xdoclint/>
+    <surefire.argline/>
   </properties>
 </project>
