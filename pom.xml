@@ -178,7 +178,7 @@
                 </goals>
                 <configuration>
                   <target>
-                    <copy file="../LICENSE.txt" tofile="${project.build.directory}/generated-resources/META-INF/LICENSE" overwrite="false" failonerror="true" />
+                    <copy file="../LICENSE.txt" tofile="${project.build.directory}/generated-resources/META-INF/LICENSE" overwrite="false" failonerror="true"/>
                   </target>
                 </configuration>
               </execution>
@@ -233,7 +233,7 @@
                 </goals>
                 <configuration>
                   <target>
-                    <copy file="../LICENSE.txt" tofile="${project.build.directory}/test-classes/META-INF/LICENSE" overwrite="false" failonerror="true" />
+                    <copy file="../LICENSE.txt" tofile="${project.build.directory}/test-classes/META-INF/LICENSE" overwrite="false" failonerror="true"/>
                   </target>
                 </configuration>
               </execution>
@@ -1160,7 +1160,7 @@
     <version.javax.xml.ws.jaxws.rt>2.2</version.javax.xml.ws.jaxws.rt><!-- Java 5 -->
     <version.jmock>1.0.1</version.jmock>
     <version.joda-time>1.6</version.joda-time>
-    <version.junit>3.8.1</version.junit>
+    <version.junit>3.8.2</version.junit>
     <version.net.sf.kxml.kxml2>2.3.0</version.net.sf.kxml.kxml2>
     <version.org.apache.felix>4.4.1</version.org.apache.felix>
     <version.org.codehaus.jettison>1.2</version.org.codehaus.jettison>
@@ -1185,7 +1185,7 @@
     <surefire.illegal.access>permit</surefire.illegal.access>
 
     <argLine>${surefire.argline}</argLine>
-    <javadoc.xdoclint />
-    <surefire.argline />
+    <javadoc.xdoclint/>
+    <surefire.argline/>
   </properties>
 </project>
